@@ -1,0 +1,19 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="list_item_height">88dp</dimen>
+    <dimen name="tv_height">0dp</dimen>
+    <dimen name="ll_padding_3">3dp</dimen>
+
+    <dimen name="medium_text">25sp</dimen>
+
+    <!--Internal Storage-->
+    <dimen name="text_margin_5">5dp</dimen>
+    <dimen name="text_margin_10">10dp</dimen>
+
+    <dimen name="padding_Left_12">12dp</dimen>
+    <dimen name="margin_Left_12">12dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+</resources>

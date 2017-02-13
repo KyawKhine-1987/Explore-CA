@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="General Settings">
+
+        <EditTextPreference
+            android:key="pref_username"
+            android:title="User Name" />
+
+        <CheckBoxPreference
+            android:key="pref_viewimages"
+            android:summary="Determines whether tours are shown with images."
+            android:title="View Images" />
+    </PreferenceCategory>
+</PreferenceScreen>
+
+    <!--android:layout_width="match_parent"
+    android:layout_height="match_parent"-->

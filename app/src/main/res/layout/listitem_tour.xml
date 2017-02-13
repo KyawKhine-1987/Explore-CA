@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="@dimen/list_item_height"
+              android:background="@color/egg_shell"
+              android:orientation="horizontal"
+              android:padding="@dimen/ll_padding_3"
+              tools:context=".activities.TourListActivity">
+
+    <ImageView
+        android:id="@+id/mapImageView"
+        android:layout_width="@dimen/list_item_height"
+        android:layout_height="@dimen/list_item_height"
+        android:src="@drawable/map_various"
+        android:contentDescription="@string/app_name"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/mapImageView"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/text_margin">
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/tv_height"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            tools:text="Huntington Library and Pasadena Retreat Tour"/>
+
+        <TextView
+            android:id="@+id/priceTextView"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/tv_height"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:text="$350.00"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+<!--<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="horizontal"
+              tools:context=".TourListActivity">
+
+    <ImageView
+        android:id="@+id/mapImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/map_various"
+        android:contentDescription="@string/app_name"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            tools:text="2 Days Adrift the Salton Sea"/>
+
+        <TextView
+            android:id="@+id/priceTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            tools:text="$350.00"/>
+
+    </LinearLayout>
+
+</LinearLayout>-->
+
+
+
